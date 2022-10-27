@@ -1,0 +1,13 @@
+.header-languages{
+    justify-self: right;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+.header-languages:first-child{
+    text-decoration: underline;
+}

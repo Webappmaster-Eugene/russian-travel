@@ -1,0 +1,40 @@
+
+.footer__links{
+    justify-self: left;
+    grid-column: 1/2;
+    align-self: center;
+    margin-left: 48px;
+
+
+    
+    
+}
+
+@media screen and (max-width: 912px){
+    .footer__links{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 712px){
+    .footer__links{
+        margin: 0;
+        justify-self: left;
+        align-self: left;
+        grid-column: 1;
+        display: grid;
+        align-items: start;
+        align-content: start;
+        justify-content: left;
+        justify-items: left;
+        row-gap: 32px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .footer__links{
+        justify-self: left;
+        margin-left: 16px;
+    }
+}

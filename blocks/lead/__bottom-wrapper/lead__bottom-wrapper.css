@@ -1,0 +1,13 @@
+.lead__bottom-wrapper{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1124px) {
+    .lead__bottom-wrapper{
+        max-width: 928px;
+    }
+}

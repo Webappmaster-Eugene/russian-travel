@@ -1,0 +1,36 @@
+.places{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 984px;
+    margin-bottom: 128px;
+    row-gap: 80px;
+}
+
+@media screen and (max-width: 1124px){
+    .places{
+        justify-content: left;
+        justify-items: left;
+        margin: 0 62px 128px 32px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .places{
+        row-gap: 73px;
+        max-width: 984px;
+        max-width: 720px;
+        padding: 0 24px 90px 24px;
+        margin: 0;
+    } 
+}
+
+@media screen and (max-width: 680px){
+    .places{
+        row-gap: 50px;
+        padding: 0 0 66px 0;
+        box-sizing: border-box;
+    } 
+}

@@ -1,0 +1,58 @@
+.cover__item{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1184px;
+    width: 100%;
+    background-image: url('../../../images/na_sobakah_background.png');
+    grid-template-rows: repeat(2, minmax(auto-fit, 1fr)); 
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    row-gap: 32px;
+    position: relative;
+    z-index: 1;
+    padding-top: 245px; 
+    padding-bottom: 245px; 
+}
+
+@media screen and (max-width: 1124px) {
+    .cover__item{
+        padding-top: 195px; 
+        padding-bottom: 195px; 
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .cover__item{
+        padding-top: 115px; 
+        padding-bottom: 115px; 
+    }
+}
+
+.cover__item::after{
+    content: '';
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.cover__item:hover::after{
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 512px) {
+    .cover__item{
+        padding-top: 33px; 
+        padding-bottom: 33px; 
+    }
+}

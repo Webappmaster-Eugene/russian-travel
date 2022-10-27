@@ -1,0 +1,10 @@
+.header{
+    display: grid;
+    max-width: 1184px;
+    width: 100%;
+    grid-template-columns: max-content minmax(max-content,1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 48px;
+    box-sizing: border-box;
+}

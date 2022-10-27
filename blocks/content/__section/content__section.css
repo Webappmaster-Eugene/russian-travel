@@ -1,0 +1,16 @@
+.content__section{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 965px) {
+    .content__section{
+        padding: 0 24px 0 24px;
+    }
+} 
+
+@media screen and (max-width: 512px) {
+    .content__section{
+        padding: 0 16px 0 16px;
+    }
+} 

@@ -1,0 +1,38 @@
+.place__image{
+    max-width: 460px;
+    max-height: 460px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+@media screen and (max-width: 1124px){
+    .place__image{
+        max-width: 440px;
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .place__image{
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .place__image{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        max-width: 320px;
+        max-height: 320px;
+        padding: 0 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .place__image{
+        padding: 0;
+        max-width: 360px;
+        width: 100%;
+    }
+}
