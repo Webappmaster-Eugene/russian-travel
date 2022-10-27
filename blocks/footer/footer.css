@@ -11,10 +11,9 @@
     box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 712px){
     .footer{
-        padding: 64px 0 24px 0;    
+        padding: 64px 0 24px 0;
         grid-template-columns: max-content;
         grid-template-rows: 1fr auto;
         align-items: start;
@@ -29,8 +28,8 @@
     }
 }
 
- @media screen and (max-width: 512px){
+@media screen and (max-width: 512px){
     .footer{
         justify-self: left;
     }
-} 
+}
