@@ -4,7 +4,7 @@
     max-width: 1184px;
     width: 100%;
     background-image: url('../../../images/na_sobakah_background.png');
-    grid-template-rows: repeat(2, minmax(auto-fit, 1fr));
+    grid-template-rows: repeat(2, min-content);
     align-items: center;
     align-content: center;
     background-position: center;
@@ -29,6 +29,12 @@
     .cover__item{
         padding-top: 115px;
         padding-bottom: 115px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .cover__item{
+        row-gap: 16px;
     }
 }
 

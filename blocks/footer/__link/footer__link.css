@@ -22,11 +22,7 @@
         align-self: left;
         align-items: start;
         align-content: start;
-    }
-}
-
-@media screen and (max-width: 512px){
-    .footer__link{
-        justify-self: left;
+        font-size: 22px;
+        line-height: 22px;
     }
 }

@@ -8,6 +8,7 @@
     justify-self: left;
     text-align: left;
     align-self: end;
+    padding: 0;
 }
 
 @media screen and (max-width: 980px){
@@ -17,13 +18,10 @@
     }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 750px){
     .place__title{
-        grid-row: 1/2;
-        grid-column: 1/2;
         line-height: 35px;
         font-size: 32px;
-        padding: 0 16px 0 16px;
         box-sizing: border-box;
     }
 }

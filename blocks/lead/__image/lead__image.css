@@ -3,9 +3,11 @@
     width: 100%;
     max-width: 984px;
     height: auto;
+    margin: 0 auto;
+    justify-self: center;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1044px) {
     .lead__image{
         max-width: 928px;
     }

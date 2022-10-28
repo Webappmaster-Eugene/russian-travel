@@ -1,9 +1,10 @@
 .content__section{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1022px) {
     .content__section{
         padding: 0 24px 0 24px;
     }

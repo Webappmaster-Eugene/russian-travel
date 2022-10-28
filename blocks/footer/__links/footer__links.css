@@ -4,10 +4,8 @@
     grid-column: 1/2;
     align-self: center;
     margin-left: 48px;
-
-
-    
-    
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 912px){
@@ -19,7 +17,6 @@
 @media screen and (max-width: 712px){
     .footer__links{
         margin: 0;
-        justify-self: left;
         align-self: left;
         grid-column: 1;
         display: grid;
@@ -28,13 +25,11 @@
         justify-content: left;
         justify-items: left;
         row-gap: 32px;
-        margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 512px){
+@media screen and (max-width: 712px){
     .footer__links{
-        justify-self: left;
-        margin-left: 16px;
+            margin-left: 16px;
     }
 }

@@ -17,11 +17,10 @@
 
 @media screen and (max-width: 712px){
     .footer__copyright{
-        margin: 0;
+        margin: 0 24px 0 0;
         justify-self: left;
         align-self: left;
         grid-column: 1;
-        margin-left: 24px;
     }
 }
 
@@ -29,9 +28,9 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 512px){
+@media screen and (max-width: 712px){
     .footer__copyright{
-        justify-self: left;
         margin-left: 16px;
+        line-height: 14px;
     }
 }

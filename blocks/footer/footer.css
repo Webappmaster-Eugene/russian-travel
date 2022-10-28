@@ -7,7 +7,6 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    justify-items: space-between;
     box-sizing: border-box;
 }
 
@@ -24,12 +23,6 @@
         row-gap: 48px;
         font-size: 24px;
         line-height: 24px;
-        justify-self: left;
-    }
-}
-
-@media screen and (max-width: 512px){
-    .footer{
         justify-self: left;
     }
 }
