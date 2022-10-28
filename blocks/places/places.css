@@ -22,29 +22,19 @@
     .places{
         row-gap: 73px;
         max-width: 720px;
-        /* padding: 0 24px 0 24px; */
         margin: 0 24px 0 24px;
     } 
 }
-
-@media screen and (max-width: 766px){
-    .places{
-        margin: 0 24px 0 24px;
-    }
-}
-
-
 
 @media screen and (max-width: 680px){
     .places{
         row-gap: 50px;
-        padding: 0 0 0 0;
-        box-sizing: border-box;
+        padding: 0;
     } 
 }
 
 @media screen and (max-width: 512px) {
-    .photo-grid{
+    .places{
         margin: 0 16px 0 16px;
     }
 } 
