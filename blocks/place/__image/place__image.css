@@ -20,17 +20,32 @@
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 765px){
     .place__image{
+        max-width: 440px;
+        max-height: 440px;
         grid-row: 3/4;
-        max-width: 320px;
-        max-height: 320px;
         padding: 0;
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 512px) {
     .place__image{
-        max-width: 360px;
+        max-width: none;
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .place__image{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image{
+        max-width: 321px;
+        max-height: 321px;
     }
 }

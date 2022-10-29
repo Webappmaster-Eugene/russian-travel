@@ -5,10 +5,16 @@
     justify-self: left;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 765px){
     .place__website{
         grid-row: 2/3;
         grid-column: 1/2;
         box-sizing: border-box;  
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .place__website{
+        padding: 0 16px 0 16px;
     }
 }

@@ -9,9 +9,15 @@
     width: 100%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 765px){
     .place__paragraph-wrapper{
         grid-row: 4/5;
         grid-column: 1/2;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .place__paragraph-wrapper{
+        padding: 0 16px 0 16px;
     }
 }

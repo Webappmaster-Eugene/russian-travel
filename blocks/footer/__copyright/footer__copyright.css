@@ -10,11 +10,11 @@
     margin-right: 48px;
 }
 
-/* @media screen and (max-width: 912px){
+@media screen and (max-width: 912px){
     .footer__copyright{
-        margin: 0 24px 0 0;
+        margin-right: 24px;
     }
-} */
+}
 
 @media screen and (max-width: 712px){
     .footer__copyright{
@@ -29,9 +29,9 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 712px){
+@media screen and (max-width: 512px){
     .footer__copyright{
-        margin-left: 16px;
+        margin: 0 16px 0 16px;
         line-height: 14px;
     }
 }

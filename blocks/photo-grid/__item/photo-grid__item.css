@@ -1,4 +1,13 @@
 .photo-grid__item{
     width: 100%;
     height: auto;
+    
 }
+
+/* @media screen and (max-width: 512px) {
+    .photo-grid{
+        padding: 0 16px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+} */
